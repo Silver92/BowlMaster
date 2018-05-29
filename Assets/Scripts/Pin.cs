@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pin : MonoBehaviour {
 
-    public float standingThreshhold = 3f;
+    public float standingThreshhold = 10f;
     public float distanceToRaise = 40f;
     private Rigidbody rigidBody;
 
@@ -41,8 +41,6 @@ public class Pin : MonoBehaviour {
     
     public void Lower () {
         rigidBody.useGravity = true;
-        //transform.Translate(new Vector3(0, -distanceToRaise, 0), Space.World);
-        
     }
     
 }

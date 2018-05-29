@@ -33,6 +33,7 @@ public class Ball : MonoBehaviour {
         print("resetting the ball");
         inPlay = false;
         transform.position = ballStartPos;
+        transform.rotation = Quaternion.Euler(0, 0, 0);
         rigidBody.velocity = Vector3.zero;
         rigidBody.angularVelocity = Vector3.zero;
     }

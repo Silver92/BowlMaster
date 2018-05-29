@@ -2,12 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActionMaster : MonoBehaviour {
+public class ActionMaster {
 
     public enum Action {Tidy, Reset, EndTurn, EndGame};
 
     private int[] bowls = new int[21];
     private int bowl = 1;
+    
+    public static Action NextAction (List<int> pinFalls) {
+        ActionMaster an = new ActionMaster();
+        Action currentAction = new Action();
+        foreach(int pinFall in pinFalls) {
+            currentAction = an.Bowl(pinFall);
+        }
+
+        return currentAction;
+    }
     
 	public Action Bowl (int pins) {
         if (pins < 0 || pins > 10) {
