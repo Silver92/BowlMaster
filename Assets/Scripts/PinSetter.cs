@@ -10,11 +10,15 @@ public class PinSetter : MonoBehaviour {
 
     private Ball ball;
     private float lastChangeTime;
+    private int lastSettledCount = 10;
     private bool ballEnteredBox = false;
+    private ActionMaster actionMaster = new ActionMaster();
+    private Animator animator;
 
 	// Use this for initialization
 	void Start () {
         ball = FindObjectOfType<Ball>();
+        animator = GetComponent<Animator>();
 	}
     
 	
@@ -40,7 +44,6 @@ public class PinSetter : MonoBehaviour {
     }
     
     public void RenewPins () {
-        Debug.Log("Renewing pins");
         Instantiate(pinSet, new Vector3(0, 40, 1829), Quaternion.identity);
     }
     
@@ -60,6 +63,22 @@ public class PinSetter : MonoBehaviour {
     }
     
     void PinsHaveSettled () {
+        int pinFall = lastSettledCount - CountStanding();
+        lastSettledCount = CountStanding();
+
+        ActionMaster.Action action = actionMaster.Bowl(pinFall);
+        Debug.Log(action);
+        
+        if (action == ActionMaster.Action.Tidy) {
+            animator.SetTrigger("tidyTrigger");
+        } else if (action == ActionMaster.Action.EndTurn) {
+            animator.SetTrigger("resetTrigger");
+        } else if (action == ActionMaster.Action.Reset) {
+            animator.SetTrigger("resetTrigger");
+        } else if (action == ActionMaster.Action.EndGame) {
+            throw new UnityException("Have to desing the ending");
+        }
+    
         ball.Reset();
         lastStandingCount = -1;
         ballEnteredBox = false;

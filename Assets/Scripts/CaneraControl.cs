@@ -14,7 +14,7 @@ public class CaneraControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(transform.position.z <= 1729f) {
+        if(ball.transform.position.z <= 1729f) {
             transform.position = ball.transform.position + offset;
         }
         
