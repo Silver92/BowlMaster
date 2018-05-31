@@ -10,7 +10,6 @@ public class PinSetter : MonoBehaviour {
     private Animator animator;
     private PinCounter pinCounter;
     
-    private ActionMaster actionMaster = new ActionMaster();
 
 	// Use this for initialization
 	void Start () {

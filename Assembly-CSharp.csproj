@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActionMaster.cs" />
+     <Compile Include="Assets\Scripts\ActionMasterOld.cs" />
      <Compile Include="Assets\Scripts\ActionMasterTest.cs" />
      <Compile Include="Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Scripts\CaneraControl.cs" />
@@ -61,9 +62,9 @@
      <Compile Include="Assets\Scripts\PinCounter.cs" />
      <Compile Include="Assets\Scripts\PinSetter.cs" />
      <Compile Include="Assets\Scripts\ScoreDisplay.cs" />
+     <Compile Include="Assets\Scripts\ScoreDisplayTest.cs" />
      <Compile Include="Assets\Scripts\ScoreMaster.cs" />
      <Compile Include="Assets\Scripts\ScoreMasterTest.cs" />
-     <Compile Include="Assets\START Pack\Scripts\ActionMaster2.cs" />
      <Compile Include="Assets\START Pack\Scripts\OurScoreDisplayTest1.cs" />
  <Reference Include="com.unity.package-manager-ui.Editor">
  <HintPath>/Users/silver/Documents/Games/BowlMaster/Library/ScriptAssemblies/com.unity.package-manager-ui.Editor.dll</HintPath>
