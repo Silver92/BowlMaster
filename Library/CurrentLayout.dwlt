@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,8 +106,8 @@ MonoBehaviour:
     y: 30
     width: 950
     height: 706
-  m_MinSize: {x: 506, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 508, y: 342}
+  m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
   controlID: 13
 --- !u!114 &6
@@ -128,12 +128,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 656
+    width: 673
     height: 706
-  m_MinSize: {x: 404, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 406, y: 342}
+  m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 67
+  controlID: 14
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,12 +152,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 656
-    height: 419
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+    width: 673
+    height: 417
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 138
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,10 +174,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 243
-    height: 419
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 202
+    height: 417
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -197,20 +197,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 243
+    x: 202
     y: 0
-    width: 413
-    height: 419
+    width: 471
+    height: 417
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 14}
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,19 +226,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 419
-    width: 656
-    height: 287
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 18}
+    y: 417
+    width: 673
+    height: 289
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 21}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -253,9 +253,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 656
+    x: 673
     y: 0
-    width: 294
+    width: 277
     height: 706
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
@@ -265,7 +265,7 @@ MonoBehaviour:
   - {fileID: 22}
   - {fileID: 23}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -286,9 +286,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 988
+    x: 1005
     y: 93
-    width: 292
+    width: 275
     height: 685
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TestTypeToolbarIndex: 0
@@ -298,9 +298,9 @@ MonoBehaviour:
     - id: '[BowlMaster][suite]'
       name: BowlMaster
       fullName: BowlMaster
-      resultStatus: 1
-      duration: 0.120911
-      messages: 
+      resultStatus: 2
+      duration: 1.169521
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -310,168 +310,311 @@ MonoBehaviour:
     - id: '[/Users/silver/Documents/Games/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
       name: Assembly-CSharp.dll
       fullName: /Users/silver/Documents/Games/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp.dll
-      resultStatus: 1
-      duration: 0.07671
-      messages: 
+      resultStatus: 2
+      duration: 1.120968
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 1
-    - id: '[Assembly-CSharp][ActionMasterTest][suite]'
-      name: ActionMasterTest
-      fullName: ActionMasterTest
-      resultStatus: 1
-      duration: 0.048527
-      messages: 
+    - id: '[Assembly-CSharp][ScoreMasterTest][suite]'
+      name: ScoreMasterTest
+      fullName: ScoreMasterTest
+      resultStatus: 2
+      duration: 1.077111
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 1
-    - id: '[Assembly-CSharp][ActionMasterTest.NewTestScriptWithEnumeratorPasses]'
-      name: NewTestScriptWithEnumeratorPasses
-      fullName: ActionMasterTest.NewTestScriptWithEnumeratorPasses
+    - id: '[Assembly-CSharp][ScoreMasterTest.T00PassingTest]'
+      name: T00PassingTest
+      fullName: ScoreMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.04183
+      duration: 0.017534
       messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword.  This
-        is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-        your script can inherit from ScriptableObject or no base class at all
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp][ActionMasterTest.T01OneStrikeReturnEndTurn]'
-      name: T01OneStrikeReturnEndTurn
-      fullName: ActionMasterTest.T01OneStrikeReturnEndTurn
+    - id: '[Assembly-CSharp][ScoreMasterTest.T01Bowl23]'
+      name: T01Bowl23
+      fullName: ScoreMasterTest.T01Bowl23
       resultStatus: 1
-      duration: 0.028012
+      duration: 0.012962
       messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword.  This
-        is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-        your script can inherit from ScriptableObject or no base class at all
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp][ActionMasterTest.T02Bowl8ReturnsTidy]'
-      name: T02Bowl8ReturnsTidy
-      fullName: ActionMasterTest.T02Bowl8ReturnsTidy
+    - id: '[Assembly-CSharp][ScoreMasterTest.T02Bowl234]'
+      name: T02Bowl234
+      fullName: ScoreMasterTest.T02Bowl234
       resultStatus: 1
-      duration: 0.015617
+      duration: 0.004122
       messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword.  This
-        is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-        your script can inherit from ScriptableObject or no base class at all
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp][ActionMasterTest.T04Bowl28SpareReturnsEndTurn]'
-      name: T04Bowl28SpareReturnsEndTurn
-      fullName: ActionMasterTest.T04Bowl28SpareReturnsEndTurn
+    - id: '[Assembly-CSharp][ScoreMasterTest.T03Bowl2345]'
+      name: T03Bowl2345
+      fullName: ScoreMasterTest.T03Bowl2345
       resultStatus: 1
-      duration: 0.015708
+      duration: 0.004105
       messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword.  This
-        is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-        your script can inherit from ScriptableObject or no base class at all
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp][ActionMasterTest.T05CheckResetAtStrikeInLastFrame]'
-      name: T05CheckResetAtStrikeInLastFrame
-      fullName: ActionMasterTest.T05CheckResetAtStrikeInLastFrame
+    - id: '[Assembly-CSharp][ScoreMasterTest.T04Bowl23456]'
+      name: T04Bowl23456
+      fullName: ScoreMasterTest.T04Bowl23456
       resultStatus: 1
-      duration: 0.031715
+      duration: 0.008252
       messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword.  This
-        is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-        your script can inherit from ScriptableObject or no base class at all
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp][ActionMasterTest.T06CheckResetAtStrikeInLastFrame]'
-      name: T06CheckResetAtStrikeInLastFrame
-      fullName: ActionMasterTest.T06CheckResetAtStrikeInLastFrame
+    - id: '[Assembly-CSharp][ScoreMasterTest.T05Bowl234561]'
+      name: T05Bowl234561
+      fullName: ScoreMasterTest.T05Bowl234561
       resultStatus: 1
-      duration: 0.031596
+      duration: 0.003426
       messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword.  This
-        is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-        your script can inherit from ScriptableObject or no base class at all
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp][ActionMasterTest.T07CheckResetAtStrikeInLastFrame]'
-      name: T07CheckResetAtStrikeInLastFrame
-      fullName: ActionMasterTest.T07CheckResetAtStrikeInLastFrame
+    - id: '[Assembly-CSharp][ScoreMasterTest.T06Bowl2345612]'
+      name: T06Bowl2345612
+      fullName: ScoreMasterTest.T06Bowl2345612
       resultStatus: 1
-      duration: 0.030139
+      duration: 0.004096
       messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword.  This
-        is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-        your script can inherit from ScriptableObject or no base class at all
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp][ActionMasterTest.T08GameEndsAtBowl20]'
-      name: T08GameEndsAtBowl20
-      fullName: ActionMasterTest.T08GameEndsAtBowl20
+    - id: '[Assembly-CSharp][ScoreMasterTest.T07BowlX1]'
+      name: T07BowlX1
+      fullName: ScoreMasterTest.T07BowlX1
       resultStatus: 1
-      duration: 0.028779
+      duration: 0.009122
       messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword.  This
-        is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-        your script can inherit from ScriptableObject or no base class at all
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    m_ResultText: 'T08GameEndsAtBowl20 (0.029s)
+    - id: '[Assembly-CSharp][ScoreMasterTest.T08Bowl19]'
+      name: T08Bowl19
+      fullName: ScoreMasterTest.T08Bowl19
+      resultStatus: 1
+      duration: 0.004162
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T09Bowl123455]'
+      name: T09Bowl123455
+      fullName: ScoreMasterTest.T09Bowl123455
+      resultStatus: 1
+      duration: 0.003746
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T10SpareBonus]'
+      name: T10SpareBonus
+      fullName: ScoreMasterTest.T10SpareBonus
+      resultStatus: 1
+      duration: 0.004003
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T11SpareBonus2]'
+      name: T11SpareBonus2
+      fullName: ScoreMasterTest.T11SpareBonus2
+      resultStatus: 1
+      duration: 0.004234
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T12StrikeBonus]'
+      name: T12StrikeBonus
+      fullName: ScoreMasterTest.T12StrikeBonus
+      resultStatus: 1
+      duration: 0.004006
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T13StrikeBonus3]'
+      name: T13StrikeBonus3
+      fullName: ScoreMasterTest.T13StrikeBonus3
+      resultStatus: 1
+      duration: 0.003705
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T14MultiStrikes]'
+      name: T14MultiStrikes
+      fullName: ScoreMasterTest.T14MultiStrikes
+      resultStatus: 1
+      duration: 0.008763
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T15MultiStrikes3]'
+      name: T15MultiStrikes3
+      fullName: ScoreMasterTest.T15MultiStrikes3
+      resultStatus: 1
+      duration: 0.004019
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T16TestGutterGame]'
+      name: T16TestGutterGame
+      fullName: ScoreMasterTest.T16TestGutterGame
+      resultStatus: 1
+      duration: 0.004685
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T17TestAllOnes]'
+      name: T17TestAllOnes
+      fullName: ScoreMasterTest.T17TestAllOnes
+      resultStatus: 1
+      duration: 0.00386
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T18TestAllStrikes]'
+      name: T18TestAllStrikes
+      fullName: ScoreMasterTest.T18TestAllStrikes
+      resultStatus: 2
+      duration: 0.014803
+      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
+        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
+        4 elements\n  Values differ at index [4]\n  Missing:  < 150, 180, 210... >"
+      output: 
+      stacktrace: 'at ScoreMasterTest.T18TestAllStrikes () [0x00038] in /Users/silver/Documents/Games/BowlMaster/Assets/Scripts/ScoreMasterTest.cs:138
 
-      ---
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T19TestImmediateStrikeBonus]'
+      name: T19TestImmediateStrikeBonus
+      fullName: ScoreMasterTest.T19TestImmediateStrikeBonus
+      resultStatus: 1
+      duration: 0.003652
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T20SpareInLastFrame]'
+      name: T20SpareInLastFrame
+      fullName: ScoreMasterTest.T20SpareInLastFrame
+      resultStatus: 1
+      duration: 0.003979
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][ScoreMasterTest.T21StrikeInLastFrame]'
+      name: T21StrikeInLastFrame
+      fullName: ScoreMasterTest.T21StrikeInLastFrame
+      resultStatus: 2
+      duration: 0.004151
+      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
+        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
+        9 elements\n  Values differ at index [9]\n  Missing:  < 33 >"
+      output: 
+      stacktrace: 'at ScoreMasterTest.T21StrikeInLastFrame () [0x00038] in /Users/silver/Documents/Games/BowlMaster/Assets/Scripts/ScoreMasterTest.cs:159
 
-      You are trying to create a MonoBehaviour using the ''new'' keyword.  This is
-      not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-      your script can inherit from ScriptableObject or no base class at all'
-    m_ResultStacktrace: 
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    m_ResultText: "T18TestAllStrikes (0.015s)\n---\nExpected is <System.Collections.Generic.List`1[System.Int32]>
+      with 10 elements, actual is <System.Collections.Generic.List`1[System.Int32]>
+      with 4 elements\n  Values differ at index [4]\n  Missing:  < 150, 180, 210...
+      >\n---\nat ScoreMasterTest.T18TestAllStrikes () [0x00038] in /Users/silver/Documents/Games/BowlMaster/Assets/Scripts/ScoreMasterTest.cs:138"
+    m_ResultStacktrace: 'at ScoreMasterTest.T18TestAllStrikes () [0x00038] in /Users/silver/Documents/Games/BowlMaster/Assets/Scripts/ScoreMasterTest.cs:138
+
+'
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f7c6d349
-      m_LastClickedID: 1238615799
-      m_ExpandedIDs: 71658b853c730aa9be35b6f17a579577229ef37effffff7f
+      m_SelectedIDs: 09d4332e
+      m_LastClickedID: 775148553
+      m_ExpandedIDs: 71658b853c730aa9be35b6f158565d047a579577229ef37effffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -565,14 +708,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 330
     y: 93
-    width: 241
-    height: 398
+    width: 200
+    height: 396
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 1a16ffff7c16ffffc41affff681cffff8c1cffffe620ffffe225ffff3426ffff8e2affff1a2dffff7a2dffffe031ffff6c39ffff9039ffffe23dffffb23fffff1640ffff7a44ffff3a46ffff5e46ffffe24affffc84fffff2a50ffff8854ffff9a5affffec5affff465fffff2264ffff7264ffffcc68ffffe26fffff0670ffff1e74fffffc77ffff2078ffff387cffff247effff867effffd282ffff9684ffffba84ffffe088ffff4e90ffff9e90ffff2894ffff52c8ffff76c8ffffa8ccffff54ceffff78ceffffacd2ffff06dbffff56f9ffff00000000
+    m_ExpandedIDs: 3a7dfdff5c7dfdfff881fdff5689fdff7889fdff048ffdffa8a5fdffcaa5fdff72abfdff60affdff82affdff2ab5fdffe0c8fdff02c9fdff50cdfdfffad0fdff1cd1fdff92d5fdff8eecfdffb0ecfdff48f1fdffaef6fdffd0f6fdff3cfbfdffde00feff0001feff1e05fefffa0cfeff1c0dfeff7e11feffac19feffce19feff401efeff3823feff5a23feffd627feff3c2dfeff5e2dfeff9631feffdc33fefffe33feff6c38feffbc51feffde51feff4456fefffa5bfeff1c5cfeff5c60feff0468feff2668feff706cfeff8672feffa872fefff276feff1284feff3484feff9a88feff5e8efeff808efeffd292fefffc98feff1e99feff7a9dfeffdca2fefffea2feff68a7feffbea9feffe0a9feff32aefeff60b3feff82b3feff98b7feffa2bbfeffc4bbfefff8bffeff2ac9feff4cc9feff94cdfeffacd3feffced3fefffed7feff0adefeff2cdefeff76e2feff1ce8feff3ee8feff7cecfeffbef1feffe0f1feff12f6feff3efbfeff60fbfeff88fffeffd806fffffa06ffff460bffff1c11ffff3e11ffff7415ffff041affff261affffe81dffff5a20ffff7c20ffffae24ffff5e2affff802affffb42effff2634ffff4834fffff637ffffc03fffffe23ffffff043ffff2846ffff4a46ffff2c4affff4650ffff6850ffff8654ffffba59ffffdc59ffff8e5dffffc463ffffe663ffffc867ffff966dffffb86dffffc871ffff1077ffff3277ffff1e7bffff8683ffffa883ffff9487ffffd08ffffff28fffffd293ffff8ca1ffffaea1ffff78a5ffff3eacffff60acffff3ab0ffff12bcffff34bcffff18c0ffffd2c1fffff4c1ffffeec5ffff70cbffff92cbffff88cfffff78d4ffff9ad4ffff7cd8ffffa0dcffffc2dcffff86e0ffff24e2ffff46e2ffff22e6ffffc0eaffffe2eaffff84eeffffeef9ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -588,7 +731,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
   - Game
@@ -617,20 +760,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 575
+    x: 524
     y: 93
-    width: 409
-    height: 398
+    width: 877
+    height: 544
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 106534.27197396755
+  lastFramingTime: 23058.1031819582
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10.035144, y: 142.38693, z: 663.81104}
+    m_Target: {x: -5.369146, y: 41.65762, z: 37.527782}
     speed: 2
-    m_Value: {x: 10.035144, y: 142.38693, z: 663.81104}
+    m_Value: {x: -5.369146, y: 41.65762, z: 37.527782}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -658,13 +801,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.020398129, y: -0.005999378, z: 0.00012224512, w: -0.999774}
+    m_Target: {x: -0.017386839, y: 0.037484694, z: -0.00065245386, w: -0.99914575}
     speed: 2
-    m_Value: {x: -0.02039813, y: -0.005999378, z: 0.00012224512, w: -0.999774}
+    m_Value: {x: -0.017386839, y: 0.037484698, z: -0.0006524539, w: -0.99914575}
   m_Size:
-    m_Target: 1405.0176
+    m_Target: 335.95755
     speed: 2
-    m_Value: 1405.0176
+    m_Value: 335.95755
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -697,10 +840,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 975
-    y: 96
-    width: 409
-    height: 546
+    x: 534
+    y: 93
+    width: 467
+    height: 396
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -710,10 +853,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -204.5
-    m_HBaseRangeMax: 204.5
-    m_VBaseRangeMin: -115.03125
-    m_VBaseRangeMax: 115.03125
+    m_HBaseRangeMin: -116.75
+    m_HBaseRangeMax: 116.75
+    m_VBaseRangeMin: -65.671875
+    m_VBaseRangeMax: 65.671875
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -722,7 +865,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -730,25 +873,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 409
-      height: 529
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 204.5, y: 264.5}
+      width: 467
+      height: 379
+    m_Scale: {x: 2, y: 2}
+    m_Translation: {x: 233.5, y: 189.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -204.5
-      y: -264.5
-      width: 409
-      height: 529
+      x: -116.75
+      y: -94.75
+      width: 233.5
+      height: 189.5
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
-  m_LastWindowPixelSize: {x: 409, y: 546}
+  m_LastWindowPixelSize: {x: 934, y: 792}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000100
@@ -799,15 +942,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 288
+    x: 977
     y: 93
-    width: 655
-    height: 546
+    width: 409
+    height: 544
   m_PersistentViewDataDictionary: {fileID: 0}
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 11306
+  m_LastSelectedObjectID: -269696
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -829,10 +972,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 330
-    y: 512
-    width: 654
-    height: 266
+    x: 730
+    y: 658
+    width: 671
+    height: 370
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -857,9 +1000,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 94290000
-    m_LastClickedID: 10644
-    m_ExpandedIDs: 000000003c290000882a0000cc2a0000d22a0000282b0000ffffff7f
+    m_SelectedIDs: 98290000
+    m_LastClickedID: 10648
+    m_ExpandedIDs: 000000003e290000982900008c2a0000d02a0000d62a0000f02a00002c2b00003a2b0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -887,7 +1030,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c290000882a0000cc2a0000d22a0000282b0000
+    m_ExpandedIDs: 000000003e290000982900008c2a0000d02a0000d62a0000f02a00002c2b00003a2b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -931,7 +1074,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -963,10 +1106,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 730
-    y: 663
-    width: 654
-    height: 368
+    x: 330
+    y: 510
+    width: 671
+    height: 268
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:
@@ -989,10 +1132,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 660
-    width: 1183
-    height: 368
+    x: 730
+    y: 658
+    width: 656
+    height: 370
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
@@ -1017,14 +1160,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.71060926
+    - e00: 0.6720638
       e01: 0
       e02: 0
-      e03: -19.109253
+      e03: -61.388733
       e10: 0
-      e11: 0.71060926
+      e11: 0.6720638
       e12: 0
-      e13: 98.992134
+      e13: 36.527687
       e20: 0
       e21: 0
       e22: 1
@@ -1033,14 +1176,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.7121053
+    - e00: 0.5607996
       e01: 0
       e02: 0
-      e03: -20.605255
+      e03: -5.6995544
       e10: 0
-      e11: 0.7121053
+      e11: 0.5607996
       e12: 0
-      e13: 98.85
+      e13: 99.23188
       e20: 0
       e21: 0
       e22: 1
@@ -1049,14 +1192,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.7121053
+    - e00: 0.4412335
       e01: 0
       e02: 0
-      e03: -20.605255
+      e03: 69.52048
       e10: 0
-      e11: 0.7121053
+      e11: 0.4412335
       e12: 0
-      e13: 98.85
+      e13: 91.54377
       e20: 0
       e21: 0
       e22: 1
@@ -1451,9 +1594,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1402
+    x: 1405
     y: 93
-    width: 278
+    width: 275
     height: 935
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -1485,10 +1628,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -321
-    y: 93
-    width: 321
-    height: 685
+    x: 1352
+    y: 286
+    width: 328
+    height: 742
   m_PersistentViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
