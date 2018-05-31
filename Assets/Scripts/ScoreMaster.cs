@@ -16,23 +16,25 @@ public class ScoreMaster {
         return cumulativeScores;
     }
 
+    // calculate the single frame of scores
     public static List<int> ScoreFrames (List<int> rolls) {
         List<int> frameList = new List<int>();
 
+        // Index i points to 2nd bowl of frame
         for (int i = 1; i < rolls.Count; i+=2) {
 
-            if (frameList.Count == 10) { break; }
+            if (frameList.Count == 10) { break; }               // Prevents 11th frame score
             
             if (rolls[i-1] + rolls[i] < 10) {
-                frameList.Add(rolls[i - 1] + rolls[i]);
+                frameList.Add(rolls[i - 1] + rolls[i]);         // Normal "open" frame
             }
                 
-            if (rolls.Count - i <= 1) {break;}
+            if (rolls.Count - i <= 1) {break;}                  // Ensure at least 1 look-ahead available
 
-            if (rolls[i - 1] == 10){
-                i--;
+            if (rolls[i - 1] == 10){                            // STRIKE
+                i--;                                            // Strike frame has just one bowl
                 frameList.Add(10 + rolls[i + 1] + rolls[i + 2]);
-            } else if (rolls[i - 1] + rolls[i] == 10) {
+            } else if (rolls[i - 1] + rolls[i] == 10) {         // Calculate Spare bonus
                 frameList.Add(10 + rolls[i + 1]);
             }
         }
