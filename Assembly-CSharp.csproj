@@ -65,7 +65,6 @@
      <Compile Include="Assets\Scripts\ScoreDisplayTest.cs" />
      <Compile Include="Assets\Scripts\ScoreMaster.cs" />
      <Compile Include="Assets\Scripts\ScoreMasterTest.cs" />
-     <Compile Include="Assets\START Pack\Scripts\OurScoreDisplayTest1.cs" />
  <Reference Include="com.unity.package-manager-ui.Editor">
  <HintPath>/Users/silver/Documents/Games/BowlMaster/Library/ScriptAssemblies/com.unity.package-manager-ui.Editor.dll</HintPath>
  </Reference>

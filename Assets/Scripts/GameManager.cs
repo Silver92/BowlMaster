@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour {
 	}
 	
 	public void Bowl (int pinFall) {
+        Debug.Log(pinFall);
         rolls.Add(pinFall);
         ball.Reset();
         pinSetter.PerformAction(ActionMaster.NextAction(rolls));

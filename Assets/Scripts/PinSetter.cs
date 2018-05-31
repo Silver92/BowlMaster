@@ -13,7 +13,7 @@ public class PinSetter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        pinCounter = GetComponent<PinCounter>();
+        pinCounter = FindObjectOfType<PinCounter>();
         animator = GetComponent<Animator>();
 	}
     
@@ -53,13 +53,15 @@ public class PinSetter : MonoBehaviour {
         if (action == ActionMaster.Action.Tidy) {
             animator.SetTrigger("tidyTrigger");
         } else if (action == ActionMaster.Action.EndTurn) {
+            Debug.Log("performing the endturn");
             animator.SetTrigger("resetTrigger");
             pinCounter.Reset();
         } else if (action == ActionMaster.Action.Reset) {
+            Debug.Log("performing the reset");
             animator.SetTrigger("resetTrigger");
             pinCounter.Reset();
         } else if (action == ActionMaster.Action.EndGame) {
-            throw new UnityException("Have to desing the ending");
+            throw new UnityException("Have to design the ending");
         }
     }
 

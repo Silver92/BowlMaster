@@ -47,4 +47,11 @@ public class ScoreDisplayTest {
         string rollsString = "-";
         Assert.AreEqual(rollsString, ScoreDisplay.FormatRolls(rolls.ToList()));
     }
+    
+    [Test]
+    public void T06BowlX() {
+        int[] rolls = { 1, 8, 10 };
+        string rollsString = "18X ";
+        Assert.AreEqual(rollsString, ScoreDisplay.FormatRolls(rolls.ToList()));
+    }
 }

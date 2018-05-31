@@ -30,7 +30,6 @@ public class Ball : MonoBehaviour {
 
     public void Reset()
     {
-        print("resetting the ball");
         inPlay = false;
         transform.position = ballStartPos;
         transform.rotation = Quaternion.Euler(0, 0, 0);
