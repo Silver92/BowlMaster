@@ -406,6 +406,47 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 164517283}
+--- !u!1 &168373463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 168373464}
+  - component: {fileID: 168373465}
+  m_Layer: 0
+  m_Name: BorderRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &168373464
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 168373463}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 55, y: 55, z: 872}
+  m_LocalScale: {x: 20, y: 120, z: 1750}
+  m_Children: []
+  m_Father: {fileID: 679276903}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &168373465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 168373463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &236128678
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,52 +997,52 @@ Prefab:
     - target: {fileID: 54817605307577942, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54034356383304818, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54783961003026030, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54537412566813504, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54955302986122484, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54053343050481374, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54040665565747308, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54040501116294280, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54114139847499984, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 54522667799141214, guid: c97566078e35a444cb941a1a96652808,
         type: 2}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c97566078e35a444cb941a1a96652808, type: 2}
@@ -1646,6 +1687,8 @@ Transform:
   - {fileID: 1526980367}
   - {fileID: 2120788861}
   - {fileID: 408748258}
+  - {fileID: 168373464}
+  - {fileID: 1500331484}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3480,7 +3523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1.3999939, y: 618.80005}
+  m_AnchoredPosition: {x: 1.3999939, y: 1178.8}
   m_SizeDelta: {x: 94.74, y: 26.320007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1442931117
@@ -3805,6 +3848,47 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1500331483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1500331484}
+  - component: {fileID: 1500331485}
+  m_Layer: 0
+  m_Name: BorderLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1500331484
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500331483}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -55, y: 55, z: 872}
+  m_LocalScale: {x: 20, y: 120, z: 1750}
+  m_Children: []
+  m_Father: {fileID: 679276903}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1500331485
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500331483}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1501001340
 GameObject:
   m_ObjectHideFlags: 0
@@ -4776,7 +4860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1.2000122, y: 586.7001}
+  m_AnchoredPosition: {x: 1.2000122, y: 1146.7001}
   m_SizeDelta: {x: 94.74, y: 26.320007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1894041496
@@ -5269,6 +5353,11 @@ Prefab:
     - target: {fileID: 4643475437132072, guid: f176f19ad488d41369f1f003a69267b9, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 54976753688477594, guid: f176f19ad488d41369f1f003a69267b9,
+        type: 2}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f176f19ad488d41369f1f003a69267b9, type: 2}
